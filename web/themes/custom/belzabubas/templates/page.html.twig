@@ -1,0 +1,37 @@
+  <header>
+    {{ page.header }}
+  </header>
+
+  wtf kur tu navigacija
+  {% if page.belzbubasmenu %}
+  <div id="belzbubasmenu" class="content">
+    {{ page.belzabubasmenu }}
+  </div>
+  {% endif %}
+  wtf kur tu navigacija
+  <div class="layout-container">
+  <main>
+    <a id="main-content" tabindex="-1"></a>
+    <div class="layout-content">
+      <div class="articles-layout">
+      {{ page.content }}
+      </div>
+
+      {% if page.sidebar %}
+        <aside class="layout-sidebar" role="complementary">
+          {{ page.sidebar }}
+        </aside>
+      {% endif %}
+    </div>
+
+
+
+  </main>
+
+  {% if page.footer %}
+    <footer role="contentinfo">
+      {{ page.footer }}
+    </footer>
+  {% endif %}
+
+</div>

@@ -1,0 +1,23 @@
+name: Belzabubas
+type: theme
+description: 'Theme that came from hell'
+version: '1'
+core: 8.x
+base theme: false
+screenshot: screenshot.png
+regions:
+  header: 'Header'
+  belzbubasmenu: 'Navigation'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+
+libraries:
+      - belzabubas/belzabubas
+
+
+
+

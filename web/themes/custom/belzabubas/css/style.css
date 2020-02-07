@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  vertical-align: top;
+  background-color: #F8F8F8;
+}
+
+#belzbubasmenu {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+}
+.layout-content {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.layout-sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  background-color: #4f4f4f;
+}
+
+/*ARTICLES*/
+.articles-layout {
+  width: 80%;
+}
+.article-card {
+  width: 80%;
+  margin: 5px auto;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px rgba(25,25,25,0.6);
+}
+.article-name {
+  text-decoration: none;
+  color: #0f0f0f;
+  font-size: 25px;
+  text-align: center;
+}
+  .content-atributes > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+    .content-atributes > ul > li {
+      padding: 5px;
+      margin: 10px 0;
+    }
+      .content-atributes > ul > li > a {
+        font-size: 18px;
+        color: #4f4f4f;
+        text-decoration: none;
+      }
+
