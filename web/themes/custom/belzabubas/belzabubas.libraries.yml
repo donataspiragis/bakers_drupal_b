@@ -7,3 +7,25 @@ belzabubas:
       css/style.css: {}
   js:
     js/belzabubas.js: {}
+
+
+font-awesome:
+  remote: https://fortawesome.github.io/Font-Awesome/
+  version: 4.5.0
+  license:
+    name: MIT
+    url: https://fortawesome.github.io/Font-Awesome/license/
+    gpl-compatible: true
+  css:
+    theme:
+      https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css: { type: external, minified: true }
+
+sidebar:
+  version: 1.x
+  css:
+    layout:
+      css/sidebar.css: {}
+    theme:
+      css/sidebar.css: {}
+  js:
+    js/belzabubas.js: {}

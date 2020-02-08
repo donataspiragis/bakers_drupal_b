@@ -10,6 +10,7 @@ regions:
   belzbubasmenu: 'Navigation'
   content: 'Content'
   sidebar: 'Sidebar'
+  bandymas: 'Bandymas'
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
@@ -17,6 +18,7 @@ regions:
 
 libraries:
       - belzabubas/belzabubas
+      - belzabubas/font-awesome
 
 
 

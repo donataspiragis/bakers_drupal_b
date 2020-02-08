@@ -2,15 +2,20 @@
     {{ page.header }}
   </header>
 
-  wtf kur tu navigacija
+
   {% if page.belzbubasmenu %}
   <div id="belzbubasmenu" class="content">
-    {{ page.belzabubasmenu }}
+    {{ page.belzbubasmenu }}
   </div>
   {% endif %}
-  wtf kur tu navigacija
+  <br>
+
+
   <div class="layout-container">
-  <main>
+    {% if page.bandymas %}
+      {{ page.bandymas }}
+    {% endif %}
+  <main class="content-holder">
     <a id="main-content" tabindex="-1"></a>
     <div class="layout-content">
       <div class="articles-layout">
@@ -18,7 +23,8 @@
       </div>
 
       {% if page.sidebar %}
-        <aside class="layout-sidebar" role="complementary">
+        {{ attach_library('belzabubas/sidebar') }}
+        <aside class="layout-sidebar sidebar-css" role="complementary">
           {{ page.sidebar }}
         </aside>
       {% endif %}
@@ -29,7 +35,7 @@
   </main>
 
   {% if page.footer %}
-    <footer role="contentinfo">
+    <footer class="footer">
       {{ page.footer }}
     </footer>
   {% endif %}

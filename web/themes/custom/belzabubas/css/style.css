@@ -4,17 +4,31 @@ body {
   box-sizing: border-box;
   vertical-align: top;
   background-color: #F8F8F8;
+  padding-bottom: 130px;
+  position: relative;
 }
 
 #belzbubasmenu {
-  display: flex;
-  flex-direction: row;
   background-color: red;
 }
-.content {
-  display: flex;
-  flex-direction: row;
-  background-color: red;
+  #belzbubasmenu > div > nav > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+    #belzbubasmenu > div > nav > ul > li {
+      margin: 10px;
+    }
+      #belzbubasmenu > div > nav > ul > li > a {
+        font-size: 18px;
+        color: #4f4f4f;
+        text-decoration: none;
+        padding: 10px;
+      }
+
+.content-holder {
+  position: relative;
+
 }
 .layout-content {
   width: 1000px;
@@ -28,6 +42,9 @@ body {
   width: 200px;
   height: 200px;
   background-color: #4f4f4f;
+  position: absolute;
+  top: 0;
+  right: 50px;
 }
 
 /*ARTICLES*/
@@ -62,3 +79,12 @@ body {
         text-decoration: none;
       }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: green;
+  max-height: 130px;
+  overflow: hidden;
+}
