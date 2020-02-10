@@ -78,7 +78,9 @@ body {
         color: #4f4f4f;
         text-decoration: none;
       }
-
+.block-sectioning {
+  padding: 15px;
+}
 .footer {
   position: absolute;
   bottom: 0;

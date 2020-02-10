@@ -1,0 +1,10 @@
+view belza_form:
+  title: 'View belza form'
+  description: 'Able to view only loged in'
+access belza_form report:
+  title: 'Acces List to belza form'
+  description: 'View the form list'
+administer belza_form:
+  title: 'Administer belza form settings'
+  description: 'Aces belza form administrtator'
+  restrict access: true

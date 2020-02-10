@@ -1,0 +1,5 @@
+name: BelzabubasModule
+type: module
+description: Creates a page showing "Hello World".
+core: '8.x'
+#configure: belzabubasmodule.settings

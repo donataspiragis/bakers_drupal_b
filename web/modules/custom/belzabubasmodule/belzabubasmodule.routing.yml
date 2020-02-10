@@ -1,0 +1,14 @@
+belzabubasmodule.content:
+  path: '/belzabubasmodule'
+  defaults:
+    _controller: '\Drupal\belzabubasmodule\Controller\BelzaController::content'
+    _title: 'My first moduel'
+  requirements:
+    _permission: 'access content'
+belzabubasmodule.form:
+  path: '/belzabubasform'
+  defaults:
+    _form: '\Drupal\belzabubasmodule\Form\BelzaForm'
+    _title: 'Belza Form'
+  requirements:
+    _permission: 'view belza_form'
